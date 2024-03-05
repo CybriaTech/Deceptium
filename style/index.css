@@ -14,9 +14,10 @@ h1 {
 }
 
 .slogan {
-  text-align: center;
+  text-align: left;
   font-size: 2.5em;
   font-weight: bold;
+  margin-left: 100px;
 }
 
 .description {
