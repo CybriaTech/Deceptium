@@ -14,6 +14,7 @@ body {
   font-size: 5.2em;
   font-weight: bold;
   margin-left: 100px;
+  margin-bottom: 0;
 }
 
 .desc {
@@ -22,4 +23,5 @@ body {
   margin-bottom: 100%;
   margin-left: 100px;
   text-align: left;
+  padding-top: 0;
 }
