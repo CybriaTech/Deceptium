@@ -23,9 +23,8 @@ nav {
 nav a {
   font-size: 1.8em;
   font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 10px; 
-  margin-right: 10px;
   color: #fff;
+  text-align: center;
   text-decoration: none;
   font-weight: bold;
 }
