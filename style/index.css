@@ -9,10 +9,6 @@ body {
   text-align: center;
 }
 
-h1 {
-    margin: 0;
-}
-
 .slogan {
   text-align: left;
   font-size: 5.2em;
@@ -26,42 +22,4 @@ h1 {
   margin-bottom: 100%;
   margin-left: 100px;
   text-align: left;
-}
-
-.branch {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.branch-btn {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
-  width: 300px;
-}
-
-.branch-btn h3 {
-  margin-top: 0;
-}
-
-.branch-btn button {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.branch-btn button:hover {
-  background-color: #45a049;
 }
