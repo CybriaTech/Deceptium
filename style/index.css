@@ -20,14 +20,10 @@ h1 {
   margin-left: 100px;
 }
 
-.description {
-  margin: 0;
-  padding: 20px;
-}
-
 .desc {
   font-size: 2.8em;
   text-align: center;
+  top: 100%;
   margin-left: 100px;
   text-align: left;
 }
