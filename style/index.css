@@ -24,6 +24,8 @@ h1 {
   padding: 20px;
   font-size: 4.9em;
   text-align: center;
+  margin: 0;
+  text-align: left;
 }
 
 .branch {
