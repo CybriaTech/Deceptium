@@ -21,44 +21,45 @@ h1 {
 }
 
 .description {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  font-size: 4.9em;
+  text-align: center;
 }
 
 .branch {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .branch-btn {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: 300px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 300px;
 }
 
 .branch-btn h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .branch-btn button {
-    background-color: #4caf50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .branch-btn button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
