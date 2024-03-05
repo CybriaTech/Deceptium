@@ -22,6 +22,9 @@ h1 {
 
 .description {
   padding: 20px;
+}
+
+.desc {
   font-size: 2em;
   text-align: center;
   margin-left: 100px;
