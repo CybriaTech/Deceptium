@@ -10,6 +10,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .txt-header {
@@ -20,7 +22,7 @@
 
 .heading {
   font-weight: bold;
-  font-size: 3.2em;
+  font-size: 5em;
   font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
 }
@@ -38,12 +40,11 @@
 }
 
 .txt b {
-  font-size: 2.2em;
+  font-size: 1.9em;
   color: #fff;
 }
 
 .txt-link {
-  font-size: 1.8em;
   text-decoration: none;
   color: #8d0000;
 }
