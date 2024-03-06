@@ -28,6 +28,7 @@ body {
 
 .top-btn {
   width: auto;
+  height: 50px;
   border: none;
   border-radius: 5px;
   text-align: center;
@@ -51,6 +52,7 @@ body {
 }
 
 .desc-title {
+  margin-top: 25px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 3em;
   color: #fff;
@@ -67,6 +69,5 @@ body {
 
 .link {
   text-decoration: none;
-  font-size: 1.8em;
   color: #8d0000;
 }
