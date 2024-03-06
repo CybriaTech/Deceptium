@@ -67,11 +67,12 @@ body {
 
 .desc-t {
   font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 25px;
   font-size: 1.8em;
   color: #fff;
   text-align: center;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 .link {
