@@ -1,0 +1,49 @@
+#txt-box {
+  background-color: #1A1A1A;
+  box-shadow: 0 0 7px #000;
+  width: fit-content;
+  height: fit-content; 
+  padding: 20px;
+  margin: 25px auto;
+  border-radius: 6px;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.txt-header {
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 3.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+}
+
+#text {
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: left;
+}
+
+.txt {
+  font-size: 1.8em;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.txt b {
+  font-size: 2.2em;
+  color: #fff;
+}
+
+.txt-link {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #8d0000;
+}
