@@ -38,6 +38,9 @@ body {
   text-align: center;
   transition: background-color 0.2s ease;
   background-color: #2A3037;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 10px;
 }
 
 .top-btn a {
@@ -69,6 +72,8 @@ body {
   font-size: 1.8em;
   color: #fff;
   text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .link {
