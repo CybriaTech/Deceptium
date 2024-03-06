@@ -28,7 +28,7 @@ body {
 
 .btns-top {
   text-align: left;
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 .top-btn {
@@ -43,6 +43,7 @@ body {
   transition: background-color 0.2s ease;
   background-color: #2A3037;
   margin-top: 50px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
