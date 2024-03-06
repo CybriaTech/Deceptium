@@ -1,11 +1,11 @@
 #txt-box {
   background-color: #1A1A1A;
-  box-shadow: 0 0 7px #000;
+  box-shadow: 0 0 7px #fff;
   width: fit-content;
   height: fit-content; 
   padding: 20px;
   margin: 25px auto;
-  border-radius: 6px;
+  border-radius: 3px;
   margin-top: 25px;
   align-items: center;
   justify-content: center;
