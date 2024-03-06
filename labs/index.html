@@ -222,21 +222,22 @@ iframe {
         windowDiv.parentNode.removeChild(windowDiv);
     }
 
-function search() {
-    var input = document.getElementById('searchInput').value.trim();
-    var iframe = document.getElementById('bing');
-    var url = '';
-    if (input.startsWith('http://') || input.startsWith('https://')) {
-        url = input;
-    } else {
-        url = 'https://www.bing.com/search?q=' + encodeURIComponent(input);
-    }
-    iframe.src = url;
-}
+    function search() {
+        var input = document.getElementById('searchInput').value.trim();
+        var iframe = document.getElementById('bing');
+        var url = '';
+        if (input.startsWith('http://') || input.startsWith('https://')) {
+            url = input;
+        } else {
+            url = 'https://www.bing.com/search?q=' + encodeURIComponent(input);
+        }
+        iframe.src = url;
 
-    var searchResults = document.querySelector('#searchResults');
-    searchResults.classList.add('active');
-}
+        var searchResults = document.querySelector('#searchResults');
+        iframe.onload = function() {
+            searchResults.classList.add('active');
+        };
+    }
   </script>
 </body>
 </html>
