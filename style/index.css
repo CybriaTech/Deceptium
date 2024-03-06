@@ -27,10 +27,14 @@ body {
 }
 
 .top-btn {
+  font-family: 'Source Sans Pro', sans-serif;
   width: auto;
   height: 50px;
   border: none;
   border-radius: 5px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #fff;
   text-align: center;
   transition: background-color 0.2s ease;
   background-color: #2A3037;
