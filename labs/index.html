@@ -107,32 +107,11 @@ input:focus {
   outline: none;
   border-color: transparent;
  }
-
-iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  pointer-events: none;
-}
-
-#searchResults {
-  position: relative;
-  z-index: 9998;
-}
-
-#searchResults:active {
-  z-index: -1;
-  pointer-events: none;
-}
 </style>
 </head>
 <body>
-    <div class="window">
-        <div class="title-bar" id="draggable">
+    <div class="window" id="draggable">
+        <div class="title-bar">
             <div class="title">Deceptium V2</div>
             <div class="btns">
                 <div class="close-btn" onclick="close()"></div>
@@ -145,9 +124,6 @@ iframe {
             <form onsubmit="search(); return false;" id="searchForm">
             <input type="text" placeholder="Search with Deceptium V2" id="searchInput">
             </form>
-            <div id="searchResults">
-                <iframe id="bing"></iframe>
-            </div>
         </div>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
@@ -159,27 +135,6 @@ iframe {
                 restriction: 'parent',
                 endOnly: true,
                 elementRect: { top: 0, left: 0, bottom: 1, right: 1 }
-            }
-        });
-
-    interact('#draggable')
-        .draggable({
-            listeners: {
-                start (event) {
-                    event.interactable.classList.add('dragging');
-                },
-                move (event) {
-                    const target = event.target;
-                    const x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
-                    const y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
-
-                    target.style.transform = `translate(${x}px, ${y}px)`;
-                    target.setAttribute('data-x', x);
-                    target.setAttribute('data-y', y);
-                },
-                end (event) {
-                    event.interactable.classList.remove('dragging');
-                }
             }
         })
         .resizable({
@@ -202,41 +157,11 @@ iframe {
                     target.setAttribute('data-y', y);
                 }
             }
-        })
-        .on('doubletap', function (event) {
-            const target = event.target;
-            target.classList.toggle('maximized');
-            if (target.classList.contains('maximized')) {
-                target.style.width = '100vw';
-                target.style.height = '100vh';
-                target.style.transform = 'translate(0, 0)';
-            } else {
-                target.style.width = '600px';
-                target.style.height = '400px';
-                target.style.transform = 'translate(-50%, -50%)';
-            }
         });
 
-    function close() {
+    function closeWindow() {
         var windowDiv = document.querySelector('.window');
         windowDiv.parentNode.removeChild(windowDiv);
-    }
-
-    function search() {
-        var input = document.getElementById('searchInput').value.trim();
-        var iframe = document.getElementById('bing');
-        var url = '';
-        if (input.startsWith('http://') || input.startsWith('https://')) {
-            url = input;
-        } else {
-            url = 'https://www.bing.com/search?q=' + encodeURIComponent(input);
-        }
-        iframe.src = url;
-
-        var searchResults = document.querySelector('#searchResults');
-        iframe.onload = function() {
-            searchResults.classList.add('active');
-        };
     }
   </script>
 </body>
