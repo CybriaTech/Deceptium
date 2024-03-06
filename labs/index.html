@@ -118,12 +118,12 @@ iframe {
   pointer-events: none;
 }
 
-.search-results {
+#searchResults {
   position: relative;
   z-index: 9998;
 }
 
-.search-results:active {
+#searchResults:active {
   z-index: -1;
   pointer-events: none;
 }
@@ -233,7 +233,7 @@ function search() {
     iframe.src = url;
 }
 
-    var searchResults = document.querySelector('.search-results');
+    var searchResults = document.querySelector('#searchResults');
     searchResults.classList.add('active');
 }
   </script>
