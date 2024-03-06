@@ -25,11 +25,12 @@
   font-size: 4.5em;
   font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
+  margin-bottom: 0;
 }
 
 #text {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 130px;
+  margin-right: 130px;
   text-align: left;
 }
 
@@ -40,7 +41,6 @@
 }
 
 .txt b {
-  font-size: 0.1em;
   color: #fff;
 }
 
