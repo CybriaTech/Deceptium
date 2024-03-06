@@ -42,7 +42,6 @@ body {
   color: #fff;
   transition: background-color 0.2s ease;
   background-color: #2A3037;
-  margin-left: 10px;
   margin-top: 50px;
   cursor: pointer;
 }
