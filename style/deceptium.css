@@ -24,6 +24,7 @@
   font-size: 1.7em;
   border: none;
   align-items: center;
+  text-align: left;
   font-weight: bold;
   border-radius: 5px;
   background-color: #ff0000;
@@ -39,7 +40,6 @@
   display: inline-flex;
   flex-direction: column;
   position: absolute;
-  text-align: left;
 }
 
 .d-btn-title {
