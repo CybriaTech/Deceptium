@@ -1,5 +1,4 @@
-.d-btn-title,
-.d-btn-desc {
+.d-btn-title {
   display: inline-flex;
   flex-direction: column;
   position: absolute;
@@ -20,10 +19,6 @@
   font-size: 1.6em;
 }
 
-.d-btn-desc {
-  font-size: 1.3em;
-}
-
 #d-btn {
   display: flex;
   flex-wrap: wrap;
@@ -38,5 +33,6 @@
   overflow: hidden;
   border-radius: 4px;
   margin-right: 0;
+  border: 1px solid #000;
   margin-bottom: 20px;
 }
