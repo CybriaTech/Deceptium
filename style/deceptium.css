@@ -16,6 +16,24 @@
   z-index: 1;
 }
 
+.d-button {
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: left;
+  cursor: pointer;
+  height: 50px;
+  width: auto;
+  font-size: 1.7em;
+  background-color: #fff000;
+  color: #fff;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease;
+}
+
 .d-btn-title {
   font-size: 1.9em;
 }
