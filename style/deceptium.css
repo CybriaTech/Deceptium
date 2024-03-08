@@ -21,6 +21,8 @@
 }
 
 .d-btn-date {
+  top: 100%;
+  margin-top: 5px;
   font-size: 1.6em;
 }
 
