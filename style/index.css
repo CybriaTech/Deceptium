@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   min-height: auto;
-  height: 100%;
+  height: 100vh;
 }
 
 .slogan {
