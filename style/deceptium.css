@@ -39,7 +39,7 @@
   text-align: left;
   font-weight: bold;
   border-radius: 5px;
-  background-color: #f50000;
+  background-color: #ff0000;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -47,7 +47,8 @@
 }
 
 .d-button:hover {
-  
+  background-color: #f50000;
+}
 
 #d-button {
   bottom: 10px;
