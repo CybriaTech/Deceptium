@@ -25,7 +25,10 @@
   height: 50px;
   width: auto;
   font-size: 1.7em;
-  background-color: #fff000;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #ff0000;
   color: #fff;
   bottom: 10px;
   left: 10px;
