@@ -16,6 +16,18 @@
   z-index: 1;
 }
 
+.d-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 2.7em;
+}
+
+.d-desc {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
 .d-button {
   cursor: pointer;
   height: 50px;
