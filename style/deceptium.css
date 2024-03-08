@@ -17,14 +17,12 @@
 }
 
 .d-button {
-  display: inline-flex;
-  flex-direction: column;
-  position: absolute;
-  text-align: left;
   cursor: pointer;
   height: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
   width: auto;
   font-size: 1.7em;
+  border: none;
   align-items: center;
   font-weight: bold;
   border-radius: 5px;
@@ -35,6 +33,13 @@
   margin: 0;
   padding: 0;
   transition: background-color 0.3s ease;
+}
+
+#d-btn {
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: left;
 }
 
 .d-btn-title {
