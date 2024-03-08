@@ -29,14 +29,14 @@
   border-radius: 5px;
   background-color: #ff0000;
   color: #fff;
-  bottom: 10px;
-  left: 10px;
   margin: 0;
   padding: 0;
   transition: background-color 0.3s ease;
 }
 
 #d-button {
+  bottom: 10px;
+  left: 10px;
   display: inline-flex;
   flex-direction: column;
   position: absolute;
