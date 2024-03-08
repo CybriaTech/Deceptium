@@ -1,0 +1,43 @@
+.d-btn-title,
+.d-btn-desc {
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 15px #000;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1;
+}
+
+.d-btn-title {
+  font-size: 1.6em;
+}
+
+.d-btn-desc {
+  font-size: 1.3em;
+}
+
+#d-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: calc(300px * N + 20px * (N - 1));
+}
+
+.d-btn {
+  width: 300px;
+  height: 175px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
