@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 
-body {
+html, body {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #22272E;
   margin: 0;
   padding: 0;
   text-align: center;
-  min-height: 100vh;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 .slogan {
@@ -59,14 +64,12 @@ body {
 
 .sec-dark {
   width: 100%;
-  min-height: auto;
   height: auto;
   background-color: #1d2127;
 }
 
 .sec-light {
   width: 100%;
-  min-height: auto;
   height: auto;
   background-color: #22272E;
 }
