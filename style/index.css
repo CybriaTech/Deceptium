@@ -59,12 +59,14 @@ body {
 
 .sec-dark {
   width: 100%;
+  min-height: auto;
   height: auto;
   background-color: #1d2127;
 }
 
 .sec-light {
   width: 100%;
+  min-height: auto;
   height: auto;
   background-color: #22272E;
 }
