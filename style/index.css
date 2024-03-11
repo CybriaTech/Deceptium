@@ -81,6 +81,10 @@ body {
   text-align: center;
 }
 
+main {
+  flex: 1;
+}
+
 .desc-t {
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 0;
